@@ -1,16 +1,13 @@
-PROJECT_NAME = PROCESS_MINISHELL
+SRC = *.c
 
-SRC = src/minishell.c\
-src/main.c
+INC = *.h
 
+all: $(SRC)
+	gcc $(SRC) $(INC) -o a.out
 
-INC = -Iinc
-
-$(PROJECT_NAME).out : $(SRC)
-	gcc $^ -o $@ $(INC)
-
-run : $(PROJECT_NAME).out
-	./$^
+run:
+	./a.out
 
 clean:
-	rm -rf *.o *.out
+	rm -rf *.out *.o
+
