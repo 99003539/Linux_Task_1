@@ -2,11 +2,11 @@ SRC = *.c
 
 
 all: $(SRC)
-gcc $(SRC)  -o a.out
+  gcc $(SRC)  -o a.out
 
 run:
-./a.out
+  ./a.out
 
 clean:
-rm -rf *.out *.o
+  rm -rf *.out *.o
 
