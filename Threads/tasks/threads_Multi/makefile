@@ -1,13 +1,11 @@
-PROJECT_NAME = THREADS_MULTI
+SRC = *.c
 
-SRC = src/multithread.c
+all: $(SRC)
+	gcc $(SRC) -o a.out
 
-
-
-$(PROJECT_NAME).out : $(SRC)
-	gcc $^ -o $@ 
-run : $(PROJECT_NAME).out
-	./$^
+run:
+	./a.out
 
 clean:
-	rm -rf *.o *.out
+	rm -rf *.out *.o
+
