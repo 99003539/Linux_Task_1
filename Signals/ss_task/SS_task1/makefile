@@ -1,10 +1,12 @@
-PROJECT_NAME = SS_TASK1
+SRC = *.c
 
-SRC = src/copyoprewrcl.c
 
-$(PROJECT_NAME).out : $(SRC) gcc $^ -o $@
+all: $(SRC)
+gcc $(SRC)  -o a.out
 
-run : $(PROJECT_NAME).out ./$^
+run:
+./a.out
 
-clean: rm -rf *.o *.out
+clean:
+rm -rf *.out *.o
 
