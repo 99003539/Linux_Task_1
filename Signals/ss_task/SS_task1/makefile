@@ -1,4 +1,4 @@
-PROJECT_NAME = SS_task1
+PROJECT_NAME = SS_TASK1
 
 SRC = src/copyoprewrcl.c
 
