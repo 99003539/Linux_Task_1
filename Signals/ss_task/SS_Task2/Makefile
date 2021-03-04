@@ -1,16 +1,17 @@
-PROJECT_NAME = TASK2 
 
-SRC = src/count.c\
-src/main.c
+SRC = *.c
 
+INC = *.h
 
-INC = -Iinc
+all: $(SRC)
+gcc $(SRC) $(INC) -o a.out
 
-$(PROJECT_NAME).out : $(SRC)
-	gcc $^ -o $@ $(INC)
-
-run : $(PROJECT_NAME).out
-	./$^
+run:
+./a.out
 
 clean:
-	rm -rf *.o *.out
+rm -rf *.out *.o
+
+
+
+
