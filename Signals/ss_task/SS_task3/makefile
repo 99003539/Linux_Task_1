@@ -1,4 +1,4 @@
-PROJECT_NAME = SS_task3
+PROJECT_NAME = SS_TASK3
 
 SRC = src/sig.c\
 src/main.c
