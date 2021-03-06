@@ -1,6 +1,6 @@
 # Linux_Tasks
 
-# Learning_report 
+## Learning_report 
 
 # Folders of Activity 1 are under the folders
     Src,inc,static_file,dynamic_file
