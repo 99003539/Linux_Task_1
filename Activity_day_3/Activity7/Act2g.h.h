@@ -1,5 +1,5 @@
-#ifndef SOL2G_H_INCLUDED
-#define SOL2G_H_INCLUDED
+#ifndef Act2G_H_INCLUDED
+#define Act2G_H_INCLUDED
 #include<unistd.h>
 #include<stdio.h>
 #include<fcntl.h>
@@ -7,4 +7,4 @@
 #include<stdlib.h>
 
 
-#endif // SOL2G_H_INCLUDED
+#endif // Act2G_H_INCLUDED
