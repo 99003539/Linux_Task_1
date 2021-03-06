@@ -1,4 +1,4 @@
-#include"sol2g.h"
+#include"Act2g.h"
 void main()
 {
     char str[256]="start";
